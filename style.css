@@ -1,0 +1,116 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    --bg-color: #FFF;
+    --theme-color: #29005F;
+    --text-color: #000;
+    font-family: 'Urbanist', sans-serif;
+    background-color: var(--bg-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.image-section .logo {
+    position: absolute;
+    left: 40px;
+    top: 22px;
+
+}
+
+.image-section .main-image {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.image-section {
+    flex: 1;
+}
+
+.text-section {
+    flex: 1;
+    margin-right: 400px
+}
+
+.footer {
+    display: flex;
+}
+
+.block1 {
+    flex: 1;
+    margin-right: 5px;
+
+}
+
+.block2 {
+    flex: 1;
+    margin-left: 5px;
+}
+
+.script__title {
+    color: var(--theme-color);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.42px;
+    width: 600px;
+}
+
+.block .block__title {
+    color: var(--theme-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    /* 260% */
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.input-field .email {
+    border-radius: 5px;
+    border: 1px solid #29005F;
+    width: 200px;
+    height: 44px;
+    padding: 10px 10px 10px 14px;
+}
+
+.submit__btn {
+    border-radius: 5px;
+    background: var(--theme-color);
+    color: #FFF;
+    width: 140px;
+    height: 44px;
+    padding: 0px 48px;
+    gap: 8px;
+
+
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.icon {}
+
+
+@media (max-width: 1300px) {
+    .main image {
+        size: 50%
+    }
+
+}
